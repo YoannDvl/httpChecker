@@ -1,0 +1,25 @@
+{
+  "name": "HTTPChecker",
+  "version": "0.0.1",
+  "description": "IsItUp aim to monitor the availability of a webpage or web api (everything which accept http/https request)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web monitoring"
+  ],
+  "author": "Yoann DUVAL <hello@yoann-duval.eu>",
+  "license": "MIT",
+  "dependencies": {
+    "camo": "^0.7.1",
+    "http2": "^3.2.0",
+    "koa": "^1.0.0",
+    "koa-file-server": "^2.3.1",
+    "koa-router": "^5.2.3",
+    "nedb": "^1.2.1"
+  },
+  "engines": {
+    "node": ">= 4.1.0"
+  }
+}
